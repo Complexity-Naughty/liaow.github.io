@@ -1,6 +1,8 @@
 <!DOCTYPE html>
-<html lang="en" class=""><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
     <title>liaow的个人简历</title>
     <link rel="stylesheet" href="static/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal.css">
@@ -10,31 +12,36 @@
     <script src="static/js/script.js"></script>
 </head>
 
-<body style="padding-right: 0px;">
+<body>
     <div class="container" id="cv">
         <div class="side">
             <div class="me">
                 <div class="portrait"></div>
-                
-                <h1 id="username" contenteditable="true">liaow</h1>
-                <h4 id="persona-tag" contenteditable="true">Java / Web / 实习生</h4>
+                <div class="remodal remodal-img" data-remodal-id="portrait-modal">
+                    <h3>请输入图片URL地址：</h3>
+                    <br/>
+                    <input type="text" id="avatar-url">
+                    <button data-remodal-action="confirm" class="remodal-confirm">确定</button>
+                </div>
+                <h1 id="username" >liaow</h1>
+                <h4 id="persona-tag" >Java / Web / 实习生</h4>
             </div>
             <div class="profile info-unit">
-                <h2 class="info-header"><i class="iconfont icon-person"></i> <span class="info-title" contenteditable="true">基本信息</span><span class="item-add" style="visibility: hidden;"><i class="iconfont icon-playlistadd"></i></span><span class="unit-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span><span class="item-add" style="visibility: hidden;"><i class="iconfont icon-playlistadd"></i></span><span class="unit-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></h2>
+                <h2 class="info-header"><i class="iconfont icon-person"></i> <span class="info-title">基本信息</span></h2>
                 <hr>
                 <ul class="info-list">
-                    <li>
+                   <li>
                         <label class="left-label" contenteditable="true">姓名</label><span class="label-value" contenteditable="true">liaow</span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
                     <li>
                         <label class="left-label" contenteditable="true">学历</label><span class="label-value" contenteditable="true">本科</span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
                     <li>
                         <label class="left-label" contenteditable="true">毕业院校</label><span class="label-value" contenteditable="true">某师范学院</span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
                     <li>
-                        <label class="left-label" contenteditable="true">毕业年份</label><span class="label-value" contenteditable="true">2015</span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
+                        <label class="left-label" contenteditable="true">毕业年份</label><span class="label-value" contenteditable="true">2019</span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
                 </ul>
             </div>
             <div class="contact info-unit">
-                <h2 class="info-header"><i class="iconfont icon-call"></i> <span class="info-title" contenteditable="true">联系方式</span><span class="item-add" style="visibility: hidden;"><i class="iconfont icon-playlistadd"></i></span><span class="unit-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span><span class="item-add" style="visibility: hidden;"><i class="iconfont icon-playlistadd"></i></span><span class="unit-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></h2>
+                <h2 class="info-header"><i class="iconfont icon-call"></i> <span class="info-title">联系方式</span></h2>
                 <hr>
                 <ul class="info-list">
                     <li>
@@ -42,13 +49,13 @@
                     <li>
                         <label class="left-label" contenteditable="true">邮箱</label><span class="label-value" contenteditable="true">1264538441@qq.com</span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
                     <li>
-                        <label class="left-label" contenteditable="true">个人主页</label><span class="label-value" contenteditable="true">www.***.com（个人博客）</span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
+                        <label class="left-label" contenteditable="true">个人主页</label><span class="label-value" contenteditable="true">www.liaow0316.com（个人博客）</span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
                     <li>
                         <label class="left-label" contenteditable="true">Github</label><span class="label-value" contenteditable="true">没怎么用。</span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
                 </ul>
             </div>
             <div class="skill info-unit">
-                <h2 class="info-header"><i class="iconfont icon-star"></i> <span class="info-title" contenteditable="true">技能点</span><span class="item-add" style="visibility: hidden;"><i class="iconfont icon-playlistadd"></i></span><span class="unit-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span><span class="item-add" style="visibility: hidden;"><i class="iconfont icon-playlistadd"></i></span><span class="unit-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></h2>
+                <h2 class="info-header"><i class="iconfont icon-star"></i> <span class="info-title">技能点</span></h2>
                 <hr>
                 <ul class="progress-list">
                     <li>
@@ -70,7 +77,7 @@
                 </ul>
             </div>
             <div class="stack info-unit">
-                <h2 class="info-header"><i class="iconfont icon-build"></i> <span class="info-title" contenteditable="true">技术栈</span><span class="item-add" style="visibility: hidden;"><i class="iconfont icon-playlistadd"></i></span><span class="unit-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span><span class="item-add" style="visibility: hidden;"><i class="iconfont icon-playlistadd"></i></span><span class="unit-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></h2>
+                <h2 class="info-header"><i class="iconfont icon-build"></i> <span class="info-title">技术栈</span></h2>
                 <hr>
                 <ul class="stack-list">
                     <li>
@@ -78,48 +85,50 @@
                     
                     <li>
                         <label class="left-label" contenteditable="true">后端</label><span class="label-value" contenteditable="true">Struts2、Spring4、SpringMVC、Hibernate、Mybatis、Node.js、MySQL、SQL Server</span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
-                    
-                    
-                    
-                <li>
+                    <li>
                         <label class="left-label" contenteditable="true">版本控制</label><span class="label-value" contenteditable="true">SVN、Git</span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li><li>
-                        <label class="left-label" contenteditable="true">其他</label><span class="label-value" contenteditable="true"><span style="display: inline !important;">全部都是基本会用的水平。或许问到了还需要现查……</span></span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li></ul>
+                        <label class="left-label" contenteditable="true">其他</label><span class="label-value" contenteditable="true"><span style="display: inline !important;">全部都是基本会用的水平。或许问到了还需要现查……</span></span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
+                </ul>
             </div>
 
             <div class="code info-unit">
-                <h2 class="info-header"><i class="iconfont icon-weixin"></i> <span class="info-title" contenteditable="true">个人微信</span><span class="unit-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span><span class="unit-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></h2>
+                <h2 class="info-header"><i class="iconfont icon-weixin"></i> <span class="info-title">个人微信</span></h2>
                 <hr>
                 <div class="weixin">
-                    <img src="file:///D:/1533140302/resume/%E7%AE%80%E5%8E%86%E7%94%9F%E6%88%90%E5%99%A8_files/weixin.png" alt="">
+                    <img src="static/image/weixin.png" alt="">
 
                 </div>
             </div>
-            
+            <div class="remodal remodal-img" data-remodal-id="weixin-modal">
+                <h3>请输入图片URL地址：</h3>
+                <br/>
+                <input type="text" id="weixin-url">
+                <button data-remodal-action="confirm" class="remodal-confirm">确定</button>
+            </div>
         </div>
         <div class="main">
             <div class="education info-unit right-list">
-                <h2 class="info-header"><i class="iconfont icon-education"></i> <span class="info-title" contenteditable="true">教育经历</span><span class="item-add" style="visibility: hidden;"><i class="iconfont icon-playlistadd"></i></span><span class="unit-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span><span class="item-add"><i class="iconfont icon-playlistadd"></i></span><span class="unit-remove"><i class="iconfont icon-delete"></i></span></h2>
+                <h2 class="info-header"><i class="iconfont icon-education"></i> <span class="info-title">教育经历</span></h2>
                 <hr>
                 <ul class="experience-list">
                     <li>
                         <h3 contenteditable="true">乐山师范学院 - 软件工程专业（本科）2015-2019</h3>
-                        <p contenteditable="true">在校期间，多次获得国家奖学金、校长奖学金；</p><div>专业成绩排名年级前10，积极参加各种校级、院级活动；</div><div>曾多次获得校级运动会奖牌；</div><p contenteditable="true"></p>
+                        <p contenteditable="true">在校期间，多次获得国家奖学金、校长奖学金；</p><p contenteditable="true">专业成绩排名年级前10，积极参加各种校级、院级活动；曾多次获得校级运动会奖牌；</p>
                     <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
                 </ul>
             </div>
             <div class="work info-unit right-list">
-                <h2 class="info-header"><i class="iconfont icon-work"></i> <span class="info-title" contenteditable="true">工作经历</span><span class="item-add" style="visibility: hidden;"><i class="iconfont icon-playlistadd"></i></span><span class="unit-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span><span class="item-add" style="visibility: hidden;"><i class="iconfont icon-playlistadd"></i></span><span class="unit-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></h2>
+                <h2 class="info-header"><i class="iconfont icon-work"></i> <span class="info-title">工作经历</span></h2>
                 <hr>
                 <ul class="experience-list">
                     <li>
                         <h3 contenteditable="true">暂无工作经历<div>emmm……</div></h3>
                         <p contenteditable="true">因此，正<span style="color: rgb(96, 125, 139); display: inline !important;">准备应聘一个实习生岗位……</span></p>
                     <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
-                    
-                </ul>
+                </ul class="experience-list">
             </div>
             <div class="project info-unit right-list">
-                <h2 class="info-header"><i class="iconfont icon-project"></i> <span class="info-title" contenteditable="true">个人项目</span><span class="item-add" style="visibility: hidden;"><i class="iconfont icon-playlistadd"></i></span><span class="unit-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span><span class="item-add" style="visibility: hidden;"><i class="iconfont icon-playlistadd"></i></span><span class="unit-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></h2>
+                <h2 class="info-header"><i class="iconfont icon-project"></i> <span class="info-title">个人项目</span></h2>
                 <hr>
                 <ul class="experience-list">
                     <li>
@@ -136,11 +145,10 @@
                         <p contenteditable="true">
                             主要搭建的是送养宠物的网站（后台），主要包括：<div>&nbsp; &nbsp; &nbsp;1、送养送物登记、Ajax异步上传宠物图片并展示、懒加载宠物主信息、懒加载宠物类别信息、懒加载宠物详细信息</div><div>&nbsp; &nbsp; &nbsp;2、用户登录、注册、账号冻结；Ajax异步上传用户头像、实时查看；</div><div>&nbsp; &nbsp; &nbsp;3、宠物送养2次应答记录、追责记录、懒加载宠物送养人、收养人详细信息</div><div>&nbsp; &nbsp; &nbsp;4、送养流程时间线</div></p>
                     <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
-                    
                 </ul>
             </div>
             <div class="trophy info-unit">
-                <h2 class="info-header"><i class="iconfont icon-trophy"></i> <span class="info-title" contenteditable="true">奖项与证书</span><span class="item-add" style="visibility: hidden;"><i class="iconfont icon-playlistadd"></i></span><span class="unit-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span><span class="item-add" style="visibility: hidden;"><i class="iconfont icon-playlistadd"></i></span><span class="unit-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></h2>
+                <h2 class="info-header"><i class="iconfont icon-trophy"></i> <span class="info-title">奖项与证书</span></h2>
                 <hr>
                 <ul class="experience-list">
                     <li>
@@ -151,28 +159,17 @@
                         <h3 contenteditable="true">英语四级证书</h3>
                         <p contenteditable="true">
                             这个证书说明，我还是掌握基本英语了的，基础英语是没有问题的。</p>
-                    <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li> 
-                                         
-            </ul></div>
+                    <span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span><span class="item-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></li>
+                </ul>                   
+            </div>
             <div class="aboutme info-unit right-paragraph">
-                <h2 class="info-header"><i class="iconfont icon-flower"></i> <span class="info-title" contenteditable="true">自我评价</span><span class="unit-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span><span class="unit-remove" style="visibility: hidden;"><i class="iconfont icon-delete"></i></span></h2>
+                <h2 class="info-header"><i class="iconfont icon-flower"></i> <span class="info-title">自我评价</span></h2>
                 <hr>
                 <p contenteditable="true">
                     当前对自我的评价包括以下几点：<div>&nbsp; &nbsp; &nbsp;1、动手能力较强，喜欢自己百度、查资料、或者自己进行试验研究问题；当然，百度帮我解决了大部分问题。</div><div>&nbsp; &nbsp; &nbsp;2、团队协作能力强，曾带领小组一起进行小项目开发，对整个项目框架的搭建、任务的安排，比较熟悉；能够实现一个小型项目的基本功能，排查问题的能力可靠。</div><div>&nbsp; &nbsp; &nbsp;3、工作认真负责、工作态度端正；小组协同开发过程，每天按照团队开发规范，要求大家每天提交当天的工作日志到svn，每天认真阅读大家的工作日志</div><div>&nbsp; &nbsp; &nbsp;4、沟通交流能力良好，对抽象、复杂的问题加以确定的、简单的例子进行解释，能够在表达过程中，将大问题切分成小问题，确保能将问题描述清楚</div><div>&nbsp; &nbsp; &nbsp;5、遇到问题虚心求教，不打断他人，为人乐观积极，健康向上，喜欢运动，例如跑步、打羽毛球等等。<br><div><br></div></div></p>
             </div>
         </div>
     </div>
+</body>
 
-
-
-<div class="remodal-overlay remodal-is-closed" style="display: none;"></div><div class="remodal-wrapper remodal-is-closed" style="display: none;"></div><div class="remodal-wrapper remodal-is-closed" style="display: none;"></div><div class="remodal-wrapper remodal-is-closed" style="display: none;"><div class="remodal remodal-img remodal-is-initialized remodal-is-closed" data-remodal-id="portrait-modal" tabindex="-1">
-                    <h3 contenteditable="true">请输入图片URL地址：</h3>
-                    <br>
-                    <input type="text" id="avatar-url">
-                    <button data-remodal-action="confirm" class="remodal-confirm">确定</button>
-                </div></div><div class="remodal-wrapper remodal-is-closed" style="display: none;"><div class="remodal remodal-img remodal-is-initialized remodal-is-closed" data-remodal-id="weixin-modal" tabindex="-1">
-                <h3 contenteditable="true">请输入图片URL地址：</h3>
-                <br>
-                <input type="text" id="weixin-url">
-                <button data-remodal-action="confirm" class="remodal-confirm">确定</button>
-            </div></div></body></html>
+</html>
